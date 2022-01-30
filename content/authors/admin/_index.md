@@ -38,7 +38,7 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-- icon: fas
+- icon: envelope
   icon_pack: fas
   link: 'mailto:yugb5@mail2.sysu.edu.cn'
 # - icon: twitter
@@ -68,5 +68,5 @@ email: ""
 highlight_name: true
 ---
 
-I am a 2nd year Ph.D. candidate at Sun Yat-sen University, advised by Professor Pengfei Chen. I am interested in cloud native, microservice, Serverless, and AIOps. My research focus on managing large-scale cloud-native systems in heterogeneous computing continuum, improving theis performance and reliability.
+I am a 2nd year Ph.D. candidate at Sun Yat-sen University, advised by Professor [Pengfei Chen](http://www.dds-sysu.tech/Teachers). I am interested in cloud native, microservice, Serverless, and AIOps. My research focus on managing large-scale cloud-native systems in heterogeneous computing continuum, improving their reliability, performance and  resource efficiency. 
 
