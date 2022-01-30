@@ -54,5 +54,5 @@ url_source: ''
 url_video: 'https://www.youtube.com/watch?v=KGTkcvoQV-M'
 
 ---
-
+The blow figure shows the framework of MicroRank.
 ![MicroRank Framework](./microrank.jpg)

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Guangba Yu
+title: Guangba Yu (余广坝)
 
 # Is this the primary user of the site?
 superuser: true
