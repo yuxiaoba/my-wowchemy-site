@@ -14,7 +14,7 @@ authors:
 # - "Equal contribution"
 
 date: "2021-04-19T00:00:00Z"
-doi: "https://doi.org/10.1145/3442381.3449905"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-01-30T00:00:00Z"
@@ -34,7 +34,7 @@ abstract: With the advantages of flexible scalability and fast delivery, microse
 # Summary. An optional shortened abstract.
 summary: This paper proposes a novel system, named MicroRank, which analyzes clues provided by normal and abnormal traces to locate root causes of latency issues. 
 
-tags: []
+tags: [microservice, RCA, Spectrum]
 
 # Display this page in the Featured widget?
 featured: false
@@ -53,35 +53,6 @@ url_slides: ''
 url_source: ''
 url_video: 'https://www.youtube.com/watch?v=KGTkcvoQV-M'
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ""
-  preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-- example
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+![MicroRank Framework](./microrank.jpg)
