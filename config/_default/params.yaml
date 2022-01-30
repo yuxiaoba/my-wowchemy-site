@@ -37,19 +37,19 @@ address:
 #   - 'Monday 10:00 to 13:00'
 #   - 'Wednesday 09:00 to 10:00'
 # appointment_url: 'https://calendly.com'
-# contact_links:
-#   - icon: twitter
-#     icon_pack: fab
-#     name: DM Me
-#     link: 'https://twitter.com/Twitter'
-#   - icon: skype
-#     icon_pack: fab
-#     name: Skype Me
-#     link: 'skype:echo123?call'
-#   - icon: keybase
-#     icon_pack: fab
-#     name: Chat on Keybase
-#     link: 'https://keybase.io/'
+contact_links:
+  # - icon: twitter
+  #   icon_pack: fab
+  #   name: DM Me
+  #   link: 'https://twitter.com/Twitter'
+  # - icon: skype
+  #   icon_pack: fab
+  #   name: Skype Me
+  #   link: 'skype:echo123?call'
+  # - icon: keybase
+  #   icon_pack: fab
+  #   name: Chat on Keybase
+  #   link: 'https://keybase.io/'
   - icon: comments
     icon_pack: fas
     name: Wetchat
