@@ -6,7 +6,7 @@ title: Guangba Yu
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Candiate Focus on Cloud Native
+role: Ph.D. Candidate Focus on Cloud Native
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -14,7 +14,7 @@ organizations:
   url: http://www.dds-sysu.tech/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include cloud computing, microservices, Serverless, AIOps
 
 # Interests to show in About widget
 interests:
@@ -27,10 +27,10 @@ interests:
 education:
   courses:
   - course: Ph.D. in Computer Science and Technology
-    institution: Sun Yat-sen University
+    institution: Sun Yat-Sen University
     year: 2024 
   - course: M.Eng in Computer Technology
-    institution: Sun Yat-sen University
+    institution: Sun Yat-Sen University
     year: 2020
 
 # Social/Academic Networking
@@ -68,5 +68,5 @@ email: ""
 highlight_name: true
 ---
 
-I am a 2nd year Ph.D. candidate at Sun Yat-sen University, advised by Professor [Pengfei Chen](http://www.dds-sysu.tech/Teachers). I am interested in cloud native, microservice, Serverless, and AIOps. My research focus on managing large-scale cloud-native systems in heterogeneous computing continuum, improving their reliability, performance and  resource efficiency. 
+I am a 2nd year Ph.D. candidate at Sun Yat-Sen University, advised by Professor [Pengfei Chen](http://www.dds-sysu.tech/Teachers). I am interested in cloud native, microservice, Serverless, and AIOps. My research focus on managing large-scale cloud-native systems in heterogeneous computing continuum, improving their reliability, performance and  resource efficiency. 
 
