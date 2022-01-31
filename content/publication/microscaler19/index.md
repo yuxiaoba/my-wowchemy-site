@@ -55,5 +55,5 @@ url_source: ''
 url_video: ''
 
 ---
-The blow figure shows the framework of MicroRank.
-![MicroRank Framework](./microscaler19.jpg)
+The blow figure shows the framework of Microscaler.
+![Microscaler Framework](./microscaler19.jpg)
