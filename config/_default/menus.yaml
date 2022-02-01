@@ -12,7 +12,7 @@ main:
     weight: 40
   - name: Publications
     url: '#publications'
-    weight: 50
+    weight: 20
   - name: Contact
     url: '#contact'
     weight: 60

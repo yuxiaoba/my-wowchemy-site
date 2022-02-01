@@ -27,10 +27,12 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
-    tag: Deep Learning
-  - name: Other
-    tag: Demo
+  - name: Telemetry
+    tag: Telemetry
+  - name: RCA
+    tag: RCA
+  - name: Anormaly Detection
+    tag: Anormaly Detection
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
