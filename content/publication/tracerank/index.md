@@ -35,7 +35,7 @@ abstract: Modern cloud native applications are generally built with a microservi
 # Summary. An optional shortened abstract.
 summary: This paper proposes a novel system named TraceRank to identify and locate abnormal services causing performance problems with dis-aggregated end-to-end traces.
 
-tags: [Microservice, RCA, Spectrum, Reliability]
+tags: [Microservice, RCA, Spectrum, Reliability, AIOps]
 
 # Display this page in the Featured widget?
 featured: false

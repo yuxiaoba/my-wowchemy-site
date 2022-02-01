@@ -35,7 +35,7 @@ abstract: Recently, the microservice becomes a popular architecture to construct
 # Summary. An optional shortened abstract.
 summary: In this paper, we present a novel system named Microscaler to automatically identify the scaling-needed services and scale them to meet the service level agreement (SLA) with an optimal cost for micro-service systems.
 
-tags: [Microservice, Resource, Perfromance, Autoscale]
+tags: [Microservice, Resource, Perfromance, Autoscale, AIOps]
 
 # Display this page in the Featured widget?
 featured: false

@@ -42,7 +42,7 @@ abstract: With the advantages of flexible scalability and fast delivery, microse
 # Summary. An optional shortened abstract.
 summary: This paper proposes a novel system, named MicroRank, which analyzes clues provided by normal and abnormal traces to locate root causes of latency issues. 
 
-tags: [Microservice, RCA, Spectrum, Reliability]
+tags: [Microservice, RCA, Spectrum, Reliability, AIOps]
 
 # Display this page in the Featured widget?
 featured: false

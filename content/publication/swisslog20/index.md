@@ -37,7 +37,7 @@ abstract: Log-based anomaly detection has been widely studied and achieves a sat
 # Summary. An optional shortened abstract.
 summary: In this paper, we propose SwissLog, namely a robust and unified deep learning based anomaly detection model for detecting diverse faults based on logs. 
 
-tags: [Microservice, Anomaly Detection, Reliability]
+tags: [Anomaly Detection, Reliability, AIOps]
 
 # Display this page in the Featured widget?
 featured: false
@@ -48,7 +48,7 @@ featured: false
 #   url: http://example.org
 
 url_pdf: ''
-url_code: ''
+url_code: 'https://github.com/IntelligentDDS/SwissLog'
 url_dataset: ''
 url_poster: ''
 url_project: ''
