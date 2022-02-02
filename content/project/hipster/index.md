@@ -12,11 +12,11 @@ external_link: ""
 #   caption: ""
 #   focal_point: Smart
 
-links: 
-- icon: ""
-  icon_pack: ""
-  name: ""
-  url: ""
+# links: 
+# - icon: ""
+#   icon_pack: ""
+#   name: ""
+#   url: ""
 url_code: "https://github.com/yuxiaoba/Hipster-Shop"
 url_pdf: ""
 url_slides: ""

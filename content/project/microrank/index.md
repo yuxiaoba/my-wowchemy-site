@@ -12,11 +12,11 @@ external_link: ""
 #   caption: ""
 #   focal_point: Smart
 
-links: 
-- icon: ""
-  icon_pack: ""
-  name: ""
-  url: ""
+# links: 
+# - icon: ""
+#   icon_pack: ""
+#   name: ""
+#   url: ""
 url_code: "https://github.com/IntelligentDDS/MicroRank"
 url_pdf: ""
 url_slides: ""
@@ -36,4 +36,4 @@ MicroRank extracts service latency from tracing data then conducts the anomaly d
 
 By combining PageRank and spectrum analysis, the service instances that lead to latency issues are ranked with high scores.
 
-![tracing](./microrank.jpg)
+![microrank](./microrank.jpg)
