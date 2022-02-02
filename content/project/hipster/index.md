@@ -1,9 +1,9 @@
 ---
-title: MicroRank
-summary: MicroRank is a novel system to locate root causes that lead to latency issues in microservice environments..
+title: Opentelemetry Microservice Benchmark
+summary: An microservice benchmark equipped with Opentelemetry.
 tags:
-- RCA
-date: "2022-02-02T00:00:00Z"
+- Telemetry
+date: "2022-02-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -17,7 +17,7 @@ links:
   icon_pack: ""
   name: ""
   url: ""
-url_code: "https://github.com/IntelligentDDS/MicroRank"
+url_code: "https://github.com/yuxiaoba/Hipster-Shop"
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -30,10 +30,8 @@ url_video: ""
 slides: ""
 ---
 
-MicroRank is a novel system to locate root causes that lead to latency issues in microservice environments.
+Online Boutique is a cloud-native microservices demo application. Online Boutique consists of a 10-tier microservices application. The application is a web-based e-commerce app where users can browse items, add them to the cart, and purchase them. Google uses this application to demonstrate use of technologies like Kubernetes, Istio, Stackdriver, gRPC. This application works on any Kubernetes cluster (such as a local one). It’s easy to deploy with little to no configuration.
 
-MicroRank extracts service latency from tracing data then conducts the anomaly detection procedure.
-
-By combining PageRank and spectrum analysis, the service instances that lead to latency issues are ranked with high scores.
+We instrument OpenTelemetry API for each service to equip tracing ability for Online Boutique.
 
 ![tracing](./tracing.png)

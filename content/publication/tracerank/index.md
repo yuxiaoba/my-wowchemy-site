@@ -1,5 +1,5 @@
 ---
-title: "TraceRank: Abnormal service localization with dis-aggregated end-to-end tracing data in cloud native systems"
+title: "TraceRank: Abnormal Service Localization with Dis-Aggregated End-to-End Tracing Data in Cloud Native Systems"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
