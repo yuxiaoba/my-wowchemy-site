@@ -34,4 +34,4 @@ Online Boutique is a cloud-native microservices demo application. Online Boutiqu
 
 We instrument OpenTelemetry API for each service to equip tracing ability for Online Boutique.
 
-![tracing](./tracing.png)
+![tracing](./microrank.jpg)

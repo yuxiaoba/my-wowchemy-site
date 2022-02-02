@@ -9,7 +9,7 @@ authors:
 - Pengfei Chen
 - Xiaoyun Li
 - Yongfeng Wang
-- Guangba Yu
+- admin
 - Cailin Chen
 - Xinrui Li
 - Zibin Zheng
