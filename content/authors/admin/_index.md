@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Guangba Yu (余广坝)
+title: Guangba Yu
 
 # Is this the primary user of the site?
 superuser: true
@@ -68,5 +68,8 @@ email: ""
 highlight_name: true
 ---
 
-I am a 2nd year Ph.D. candidate at Sun Yat-Sen University, advised by Professor [Pengfei Chen](http://www.dds-sysu.tech/Teachers). I am interested in cloud native, microservice, Serverless, and AIOps. My research focus on managing large-scale cloud-native systems in heterogeneous computing continuum, improving their reliability, performance and  resource efficiency. 
+I am Guangba Yu (余广坝 in Chinese). I am a 2nd year Ph.D. candidate at Sun Yat-Sen University, advised by Professor [Pengfei Chen](http://www.dds-sysu.tech/Teachers). I am interested in cloud native, microservice, Serverless, and AIOps. My research focus on managing large-scale cloud-native systems in heterogeneous computing continuum, improving their reliability, performance and  resource efficiency. 
+And I have a strong curiosity about telemetry of cloud-native systems.
+
+Now I am actively looking for full-time research opportunities in both China and North America.
 
