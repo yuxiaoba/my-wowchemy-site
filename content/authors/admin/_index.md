@@ -28,7 +28,7 @@ education:
   courses:
   - course: Ph.D. in Computer Science and Technology
     institution: Sun Yat-Sen University
-    year: 2024 
+    year: 2024 (Excepted) 
   - course: M.Eng in Computer Technology
     institution: Sun Yat-Sen University
     year: 2020
