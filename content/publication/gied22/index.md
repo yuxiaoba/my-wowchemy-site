@@ -20,7 +20,7 @@ date: "2022-07-19T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-08-30T00:00:00Z"
+publishDate: "2022-08-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -32,7 +32,7 @@ publication_types: ["1"]
 publication: In *37th IEEE/ACM International Conference on Automated Software Engineering (CCF A)*
 publication_short: In *ASE'22 (CCF A)*
 
-abstract: With the ever increasing
+abstract: With the ever increasing.
 
 # Summary. An optional shortened abstract.
 summary: This paper proposes a novel system, named GIED, which is a method to automatically analyze the cascading effect of availability issues in online systems. GIED enables the extraction of graph-based issue representations. This representation includes both the issue symptoms and affected service attributes. A neural network is used to perform incident detection. Finally, the PageRank algorithm is used to locate the root cause of the incident.
