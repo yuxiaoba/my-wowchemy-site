@@ -22,6 +22,7 @@ interests:
 - Microservice
 - Serverless
 - AIOps
+- Chaos Engineering
 
 # Education to show in About widget
 education:
@@ -68,8 +69,8 @@ email: ""
 highlight_name: true
 ---
 
-I am Guangba Yu (余广坝 in Chinese). I am a 2nd year Ph.D. candidate at Sun Yat-Sen University, advised by Professor [Pengfei Chen](http://www.dds-sysu.tech/Teachers). I am interested in cloud native, microservice, Serverless, and AIOps. My research focus on managing large-scale cloud-native systems in heterogeneous computing continuum, improving their reliability, performance and  resource efficiency. 
+I am Guangba Yu (余广坝 in Chinese). I am a 3nd year Ph.D. candidate at Sun Yat-Sen University, advised by Professor [Pengfei Chen](http://www.dds-sysu.tech/Teachers). I am interested in cloud native, microservice, Serverless, and AIOps. My research focus on managing large-scale cloud-native systems in heterogeneous computing continuum, improving their reliability, performance and  resource efficiency. 
 And I have a strong curiosity about telemetry of cloud-native systems.
 
-I have awarded Wechat Rhino-Bird Elite Talent Program in 2022. 
+I have awarded Wechat Rhino-Bird Elite Talent Program in 2022. I am a Ph.D. software engineering student researcher at WeChat in 2022, hosted by Yuetang Deng. 
 
