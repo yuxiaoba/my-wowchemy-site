@@ -1,18 +1,18 @@
 ---
-title: Test
-subtitle: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+title: 基于 Metrics 的根因定位 (一)：故障刻画
+subtitle: Metrics, Traces, Logs 被誉为可观测性的三大支柱。Metrics 又是三者中在根因定位中最常用的数据源，阅读本文可快速了解当前学术界热门的基于 Metric 的根因定位算法类型——故障刻画
 
 # Summary for listings and search engines
-summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+summary: Metrics, Traces, Logs 被誉为可观测性的三大支柱。Metrics 又是三者中在根因定位中最常用的数据源，阅读本文可快速了解当前学术界热门的基于 Metric 的根因定位算法类型——故障刻画
 
 # Link this post with a project
 projects: []
 
 # Date published
-date: "2020-12-13T00:00:00Z"
+date: "2022-09-03T00:00:00Z"
 
 # Date updated
-lastmod: "2020-12-13T00:00:00Z"
+lastmod: "2022-09-03T00:00:00Z"
 
 # Is this an unpublished draft?
 draft: false
@@ -32,73 +32,70 @@ authors:
 - admin
 
 tags:
-- Academic
-- 开源
+- Root Cause Analysis
+- Metrics
 
 categories:
-- Demo
-- 教程
+- Weekly Paper
 ---
 
-## Overview
+故障刻画是指通过提取历史的故障发生时不同 Metric 变化的特征，挖掘出不同种类故障发生时 Metric 变化的特征集合。在运行时阶段，可通过匹配特征集合定位到具体的故障种类。
 
-1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+例如：CPU 竞争的故障的指标变化特征是 {"CPU 利用率升高", "响应延迟升高"}。那么当在线程序出现  {"CPU 利用率升高", "响应延迟升高"} 的情况时可推断为 CPU 竞争的故障。
 
-{{< figure src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png" title="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." >}}
+## <center> <font color=#00800><u>01</u></font></center>
 
-## Get Started
+### <center><font color=#orange>22_FSE_Actionable and Interpretable Fault Localization for Recurring Failures in Online Service System</font></center>
 
-- 👉 [**Create a new site**](https://wowchemy.com/templates/)
-- 📚 [**Personalize your site**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Tutorial](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://wowchemy.com/updates/)
+![](./dejavu1.jpg)
 
-## Crowd-funded open-source software
+**论文简介:** Dejavu 是一种通过对故障进行刻画找到每种故障对应的特征，从而在故障重复发生时快速进行根因定位的方法。Dejavu 利用基于 gated recurrent unit (GRU) recurrent neural networks 构建的特征提取器统一表达故障故障单元（failure class）。然后根据 Trace 和 CMDB 构建的 failure dependency graph（FDG）。接着基于 graph attention networks (GAT) 算法对 FDG 图上的每个故障单元计算聚合的特征。最后在基于 dense neural network 为每个故障单元计算出故障的得分，得分最高的为根因故障。此外，Dejavu 还提供了故障的可解释算法用于向 SRE 解释故障的根因。
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+![](./dejavu.jpg)
 
-### [❤️ Click here to become a sponsor and help support Wowchemy's future ❤️](https://wowchemy.com/plans/)
+**个人评论：** 论文是清华大学裴丹老师团队在 CCF A类会议 FSE 上发表。论文主要针对故障重复发生的场景，需要大量的标签，且无法很好地处理新的故障。
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://wowchemy.com/plans/) awesome rewards and extra features 🦄✨**
+> 论文链接：[https://arxiv.org/abs/2207.09021](https://arxiv.org/abs/2207.09021https://arxiv.org/abs/2207.09021)
+> 代码链接：[https://github.com/NetManAIOps/DejaVu](https://github.com/NetManAIOps/DejaVu)
 
-## Ecosystem
 
-* **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli):** Automatically import publications from BibTeX
+## <center> <font color=#00800><u>02</u></font></center>
 
-## Inspiration
+### <center>20_VLDB_Diagnosing Root Causes of Intermittent Slow Queries in Cloud Databases</center>
 
-[Check out the latest **demo**](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the **showcase**](https://wowchemy.com/user-stories/) of personal, project, and business sites.
+![](./isquad1.jpg)
 
-## Features
+**论文简介:** MicroRCA 首先构建一个包含服务调用路径对应主机的属性图。在异常发生时，MicroRCA 通过判断服务之间的边的响应延迟是否异常提取异常子图。然后通过对子图进行加权计算连接节点之间的相似度，接着使用异常服务节点的响应时间与其容器资源利用率之间的最大相关系数来调整服务异常的分数，最后使用 PageRank 算法进行定位根因。
 
-- **Page builder** - Create *anything* with [**widgets**](https://wowchemy.com/docs/page-builder/) and [**elements**](https://wowchemy.com/docs/content/writing-markdown-latex/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://wowchemy.com/docs/content/writing-markdown-latex/), [**Jupyter**](https://wowchemy.com/docs/import/jupyter/), or [**RStudio**](https://wowchemy.com/docs/install-locally/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://wowchemy.com/docs/customization/)
-- **Display Code and Math** - Code highlighting and [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics) supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 34+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
+![](./isquad.jpg)
 
-## Themes
+论文定义了四种值得参考的异常类型
 
-Wowchemy and its templates come with **automatic day (light) and night (dark) mode** built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to see it in action! Day/night mode can also be disabled by the site admin in `params.toml`.
+![](./isquad2.jpg)
 
-[Choose a stunning **theme** and **font**](https://wowchemy.com/docs/customization) for your site. Themes are fully customizable.
+**个人评论：**  MSRA 马明华博士在阿里巴巴李飞飞博士团队访问时发表在 CCF A类会议 VLDB 上的论文。文章是一篇优秀的故障刻画文章。创新性的提出利用指标的类型来增加更多的线索，方法也可以用于指标的压缩。但是要获得 Level Shift Up 的类型需要长时间的数据采集，不能实现及时的根因定位。
 
-## License
+> 论文链接：[http://www.vldb.org/pvldb/vol13/p1176-ma.pdf](http://www.vldb.org/pvldb/vol13/p1176-ma.pdf)
+> 
+> 代码链接：[https://github.com/NetManAIOps/DejaVu/blob/master/iSQUAD/iSQ.py](https://github.com/NetManAIOps/DejaVu/blob/master/iSQUAD/iSQ.py)
 
-Copyright 2016-present [George Cushen](https://georgecushen.com).
+## <center> <font color=#00800><u>03</u></font></center>
 
-Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md) license.
+### <center>21_ISSRE_Identifying Root-Cause Metrics for Incident Diagnosis in Online Service Systems</center>
+
+![](./issre21.jpg)
+
+**论文简介:** 论文从大规模的生产系统中总结出 13 种典型的异常模式。然后提出了一个有监督的根因定位算法 PatternMatcher. PatternMatcher采用双样本假设检验作为粗粒度的异常检测算法，筛选出在该事件发生时表现正常的指标，从而大大减少搜索空间。之后，利用主动学习对历史故障进行标签，训练出一种基于一维CNN的异常模式分类方法，过滤掉那些工程师不关心的异常模式。最后利用 p-value 方法对每个指标计算得分并排序。
+
+![](./issre21fault.jpg) 
+
+论文中总结的典型的指标异常模式：
+
+![](./issre21p.jpg) 
+
+**个人评论：** 论文是清华大学裴丹老师团队的论文，论文总结出的典型的指标异常模式是很值得学习的。
+
+> 论文链接：[http://netman.aiops.org/wp-content/uploads/2021/10/wch_ISSRE-1.pdf](http://netman.aiops.org/wp-content/uploads/2021/10/wch_ISSRE-1.pdf)
+
+
+CloudWeekly 每周分享与云计算相关论文，相关的论文集被收纳到 github 仓库 https://github.com/IntelligentDDS/awesome-papers
