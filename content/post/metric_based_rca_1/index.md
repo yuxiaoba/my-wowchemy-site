@@ -45,7 +45,7 @@ categories:
 
 ## <center> <font color=#00800><u>01</u></font></center>
 
-### <center><font color=#orange>22_FSE_Actionable and Interpretable Fault Localization for Recurring Failures in Online Service System</font></center>
+### <center><font color=#FFA500>22_FSE_Actionable and Interpretable Fault Localization for Recurring Failures in Online Service System</font></center>
 
 ![](./dejavu1.jpg)
 
@@ -61,7 +61,7 @@ categories:
 
 ## <center> <font color=#00800><u>02</u></font></center>
 
-### <center>20_VLDB_Diagnosing Root Causes of Intermittent Slow Queries in Cloud Databases</center>
+### <center><font color=#FFA500>20_VLDB_Diagnosing Root Causes of Intermittent Slow Queries in Cloud Databases</font></center>
 
 ![](./isquad1.jpg)
 
@@ -81,7 +81,7 @@ categories:
 
 ## <center> <font color=#00800><u>03</u></font></center>
 
-### <center>21_ISSRE_Identifying Root-Cause Metrics for Incident Diagnosis in Online Service Systems</center>
+### <center><font color=#FFA500>21_ISSRE_Identifying Root-Cause Metrics for Incident Diagnosis in Online Service Systems</font></center>
 
 ![](./issre21.jpg)
 
