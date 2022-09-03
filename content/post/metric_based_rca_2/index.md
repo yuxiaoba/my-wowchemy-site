@@ -53,22 +53,7 @@ categories:
 
 **个人评论：** 论文是我导师来了中大以后组内的第一篇论文,发布在CCF B类会议 ICSOC上。第一作者的师兄去了外交部，现在在非洲为国奋斗。论文的主要贡献放在因果关系图的构建，根因的推断是比较简单的深度优先搜索和根节点的相关性计算。
 
-> 论文链接：[https://link.springer.com/chapter/10.1007/978-3-030-03596-9_1](https://link.springer.com/chapter/10.1007/978-3-030-03596-9_1)
+论文链接：[https://link.springer.com/chapter/10.1007/978-3-030-03596-9_1](https://link.springer.com/chapter/10.1007/978-3-030-03596-9_1)
 
 
-## <center> <font color=#00800>02</font></center>
-
-### <center>20_MicroRCA: Root Cause Localization of Performance Issues in Microservices</center>
-
-![](./microrca1.jpg)
-
-**论文简介:** MicroRCA首先构建一个包含服务调用路径对应主机的属性图。在异常发生时，MicroRCA通过判断服务之间的边的响应延迟是否异常提取异常子图。然后通过对子图进行加权计算连接节点之间的相似度，接着使用异常服务节点的响应时间与其容器资源利用率之间的最大相关系数来调整服务异常的分数，最后使用 PageRank 算法进行定位根因。
-
-![](./microrca.jpg)
-
-**个人评论：** 论文通过构建因果关系图，然后通过对图上的节点和边赋予权重进行 PageRank 计算，是一个通用的根因定位思路。
-
-> 论文链接：[https://hal.inria.fr/hal-02441640/document](https://hal.inria.fr/hal-02441640/document)
-> 
-> 代码链接：[https://github.com/elastisys/MicroRCA](https://github.com/elastisys/MicroRCA)
 
