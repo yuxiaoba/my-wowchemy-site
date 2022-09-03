@@ -39,7 +39,7 @@ categories:
 - Weekly Paper
 ---
 
-上周的文章 基于 Metrics 的根因定位 (一)：故障刻画 介绍了使用故障刻画思想定位根因的几种算法。除故障刻画外，还有另外一种根因定位的思想是通过 Metrics 之间的依赖关系构建出因果关系图，然后基于相关性或随机游走算法在图上游走从而定位出根因。下面简要介绍典型的几个 Micro.X 算法。
+上篇文章[基于 Metrics 的根因定位 (一)：故障刻画](https://yuxiaoba.github.io/post/metric_based_rca_1/) 介绍了使用故障刻画思想定位根因的几种算法。除故障刻画外，还有另外一种根因定位的思想是通过 Metrics 之间的依赖关系构建出因果关系图，然后基于相关性或随机游走算法在图上游走从而定位出根因。下面简要介绍典型的几个 Micro.X 算法。
 
 ## <center> <font color=#00800>01</font></center>
 
@@ -111,3 +111,4 @@ categories:
 
 > 论文链接：[https://arxiv.org/pdf/2103.01782.pdf](https://arxiv.org/pdf/2103.01782.pdf)
 
+CloudWeekly 每周分享与云计算相关论文，相关的论文集被收纳到 github 仓库 https://github.com/IntelligentDDS/awesome-papers
