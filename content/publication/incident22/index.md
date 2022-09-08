@@ -50,7 +50,7 @@ featured: false
 #   url: http://example.org
 
 url_pdf: ''
-url_code: ''
+url_code: 'https://github.com/IntelligentDDS/Post-mortems-Analysis'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -59,5 +59,5 @@ url_source: ''
 url_video: ''
 
 ---
-The blow figure shows the fault type of cloud incident .
+The blow figure shows the fault type of cloud incident.
 ![indecident type](./incident.jpg)
