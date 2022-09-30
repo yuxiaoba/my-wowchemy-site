@@ -9,10 +9,10 @@ summary: 我们实验室最近在 ASE2022，ISSRE2022, ICSOC2022, ICWS2022 等�
 projects: []
 
 # Date published
-date: "2022-09-9T00:00:00Z"
+date: "2022-09-09T00:00:00Z"
 
 # Date updated
-lastmod: "2022-09-9T00:00:00Z"
+lastmod: "2022-09-09T00:00:00Z"
 
 # Is this an unpublished draft?
 draft: false
@@ -70,9 +70,9 @@ categories:
 
 **个人评论：** 论文发表在 CCF B 类会议 ISSRE 2022 上，采集这 300 多个 incident 的经历真的不堪回首，甚至还为我在微信实习的第一个工作打下了基础。在 rebuttal 的时候还出了突发情况，还好最后被录用了，不用再继续更新数据集了。当时我在读 Google SRE 书的时候突然想引用了几个名人名言，还挺有意思的。
 
-> 论文链接：[https://yuxiaoba.github.io/publication/swisslog22/swisslog22.pdf](https://yuxiaoba.github.io/publication/swisslog22/swisslog22.pdf)
+> 论文链接：[https://yuxiaoba.github.io/publication/incident22/incident22.pdf](https://yuxiaoba.github.io/publication/incident22/incident22.pdf)
 > 
-> 代码链接：[https://github.com/IntelligentDDS/SwissLog](https://github.com/IntelligentDDS/SwissLog)
+> 代码链接：[https://github.com/IntelligentDDS/Post-mortems-Analysis](https://github.com/IntelligentDDS/Post-mortems-Analysis)
 
 ## <center> <font color=#00800>03</font></center>
 

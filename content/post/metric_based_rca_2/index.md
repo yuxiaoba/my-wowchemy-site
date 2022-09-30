@@ -9,10 +9,10 @@ summary: Metrics, Traces, Logs 被誉为可观测性的三大支柱。Metrics �
 projects: []
 
 # Date published
-date: "2022-09-03T00:00:00Z"
+date: "2022-09-04T00:00:00Z"
 
 # Date updated
-lastmod: "2022-09-03T00:00:00Z"
+lastmod: "2022-09-04T00:00:00Z"
 
 # Is this an unpublished draft?
 draft: false
