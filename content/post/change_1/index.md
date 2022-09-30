@@ -1,9 +1,9 @@
 ---
-title: 异常变更识别
-subtitle: 根据 Google SRE book 的描述，有70% 的 incident 都是由变更导致的，因此及时的发现异常的变更，尽快的采取 rollback 的策略是非常重要的。
+title: 异常变更识别(一)
+subtitle: 根据 Google SRE 书的描述，有 70% 的 incident 都是由程序或者配置的变更导致的，因此及时的发现异常的变更，尽快的采取 rollback 的策略是非常重要的。
 
 # Summary for listings and search engines
-summary: 微服务架构和CI/CD的出现让现代应用快速和频繁的开发和发布新的特性成为可能，但是代码频繁的变更为系统引入了更多的不稳定因素。根据 Google SRE book 的描述有 70% 的 incident 都是由变更导致的，因此及时的发现异常的变更，尽快的采取 rollback 的策略是非常重要的。本文介绍几个前沿的异常变更识别方法。
+summary: 微服务架构和CI/CD的出现让现代应用快速和频繁的开发和发布新的特性成为可能，但是频繁的代码和配置变更为系统引入了更多的不稳定因素。根据 Google SRE 书的描述有 70% 的 incident 都是由变更导致的，因此在程序灰度变更时及时的发现异常变更，尽快地采取 rollback 的策略是非常重要的。本文介绍三个学术界和工业界前沿的异常变更识别方法。
 
 # Link this post with a project
 projects: []
@@ -40,7 +40,7 @@ categories:
 - Weekly Paper
 ---
 
-微服务架构和CI/CD的出现让现代应用快速和频繁的开发和发布新的特性成为可能，但是代码频繁的变更为系统引入了更多的不稳定因素。根据 Google SRE book 的描述有 70% 的 incident 都是由变更导致的，因此及时的发现异常的变更，尽快的采取 rollback 的策略是非常重要的。本文介绍几个前沿的异常变更识别方法。
+微服务架构和CI/CD的出现让现代应用快速和频繁的开发和发布新的特性成为可能，但是频繁的代码和配置变更为系统引入了更多的不稳定因素。根据 Google SRE 书的描述有 70% 的 incident 都是由变更导致的，因此在程序灰度变更时及时的发现异常变更，尽快地采取 rollback 的策略是非常重要的。本文介绍三个学术界和工业界前沿的异常变更识别方法。
 
 ## <center> <font color=#00800>01</font></center>
 
@@ -78,7 +78,7 @@ categories:
 
 ![](./gandalf.jpg)
 
-**论文简介:** 当程序变更后，论文先统计失败的日志事件出现的次数，然后基于 Holt-Winters forecasting 检测出现异常的日志事件并判定为 Error。 对每一个 Error ，Gandalf 会计算它与变更的时空相关性。时间相关性基于假设“对一个变更，如果一个故障发生时间与变更的时间越接近，他们更相关”。空间相关性基于假设“在变更期间，未变更节点中发生的故障百分比越高，变更和故障之间的因果关系越低”。最后对于每个变更的得分，Gandalf 通过 Gaussian discriminant classiﬁer 判断是否要继续变更还是 rollback。
+**论文简介:** 当程序变更后，论文先统计失败的日志事件出现的次数，然后基于 Holt-Winters forecasting 检测出现异常的日志事件并判定为 Error。 对每一个 Error ，Gandalf 会计算它与变更的时空相关性。时间相关性基于假设“对一个变更，如果一个故障发生时间与变更的时间越接近，他们更相关”。空间相关性基于假设“在变更期间，未变更节点中发生的故障百分比越高，变更和故障之间的因果关系越低”。最后对于每个变更的得分，Gandalf 通过 Gaussian discriminant classifier 判断是否要继续变更还是 rollback。
 
 ![](./gandalf1.jpg) 
 
