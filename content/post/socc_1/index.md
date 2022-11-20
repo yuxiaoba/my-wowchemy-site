@@ -1,5 +1,5 @@
 ---
-title: SoCC 2022 论文集合（一
+title: SoCC 2022 论文集合（一)
 subtitle: ACM Symposium on Cloud Computing 是 Cloud Computing 领域顶级的会议。SoCC 2022 上周在旧金山举行，会议共收到 155 份投稿，录用了 38 篇，本文想要分享一下 SoCC 上我很感兴趣的部分论文。
 
 # Summary for listings and search engines
