@@ -33,7 +33,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *45th IEEE/ACM International Conference on Software Engineering (CCF A)*
-publication_short: In *ICSE'23 (CCF B)*
+publication_short: In *ICSE'23 (CCF A)*
 
 abstract: Modern systems generate a massive amount of logs to detect and diagnose system faults, which incurs expensive storage cost and runtime overhead. After investigating real-world production logs, we observe that most of the logging overhead is due to a small number of log templates, referred to as log hotspots. Therefore, we conduct a systematical study about log hotspots in an industrial system WeChat, which motivates us to identify log hotspots and reduce them on the fly. In this paper, we propose LogReducer, a non-intrusive and language-independent log reduction framework based on eBPF (Extended Berkeley Packet Filter), consisting of both online and offline processes. After two months of serving the offline process of LogReducer in WeChat, the log storage overhead has dropped from 19.7 PB per day to 12.0 PB (i.e., about a 39.08% decrease). Practical implementation and experimental evaluations in the test environment demonstrate that the online process of LogReducer can control the logging overhead of hotspots while preserving logging effectiveness. Moreover, the log hotspot handling time can be reduced from average 9 days in production to 10 minutes in the test with the help of LogReducer.
 
