@@ -49,7 +49,7 @@ SoCC 2022 会议共收到 155 份投稿，录用了 38 篇，录用率 24.5% 。
 
 ### <center><font color=#FFA500>22_SoCC_DeepScaling: Microservices AutoScaling for Stable CPU Utilization in Large Scale Cloud Systems</font></center>
 
-![](./deepscaling.jpg)
+![](./deepscaling1.jpg)
 
 **论文简介:**  为了在保障服务 SLO 的前提下，使系统的 CPU 利用率最大化从而减少资源的消耗，蚂蚁金服提出了一个名为 DeepScaling 的微服务自动伸缩框架。DeepScaling 将微服务自动伸缩3个模块：流量预测模型（Workload Forecaster），CPU估计模型（CPU Utilization Estimator）以及容量决策模型（Scaling Decider）。
 
@@ -58,7 +58,7 @@ SoCC 2022 会议共收到 155 份投稿，录用了 38 篇，录用率 24.5% 。
 - DeepScaling 基于改进的 DQN 强化学习算法为每个服务生成自动缩放策略
 
 
-![](./deepscaling1.jpg)
+![](./deepscaling2.jpg)
 
 
 **个人评论：** DeepScaling 与 [SoCC 2022 论文集合（一）](https://yuxiaoba.github.io/post/socc_1/) 中的叶可江老师的 paper 的思路是类似的。DeepScaling 在蚂蚁集团拥有135个微服务的真实生产环境中部署，平均每天可节省3 W多个CPU内核, 6W 多GB的内存。虽然 DeepScaling 被小范围应用，但是我个人感觉如果工作负载预测准了，后面应该无需加上这么复杂的服务实例决策方法，也没有必要使用黑盒的方法。
