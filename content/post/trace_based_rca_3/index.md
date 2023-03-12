@@ -123,10 +123,10 @@ a → e →f
 
 ![](./gmta3.jpg)
 
-> 论文链接：[https://taoxie.cs.illinois.edu/publications/esecfse20in-trace.pdf](https://taoxie.cs.illinois.edu/publications/esecfse20in-trace.pdf)
-
 
 **个人评论**：论文是 eBay 与复旦大学彭鑫老师团队合作发表的论文。论文更多的是针对于 Path 的抽象和可视化的展示，对根因定位的自动化考虑的还是比较少。
+
+> 论文链接：[https://taoxie.cs.illinois.edu/publications/esecfse20in-trace.pdf](https://taoxie.cs.illinois.edu/publications/esecfse20in-trace.pdf)
 
 
 从 2004 年到 2020 年，16 年的时间里可观测性有了很大的发展，分布式的场景让 Trace 已经走进千家万户。现在大型互联网厂商每日产生的 Trace 数目上百亿条，手动地分析和查看单条 Trace 越来越不实际。对同种类型的 Trace 的路径进行抽象，再具象化，能够更直观地反映当前某种请求的处理状态，降低运维工程师的运维压力。但目前基于 Trace 路径抽象方法的根因定位大多还是 UI 展示功能，根因定位自动化能力不足，未来还需继续研究。

@@ -93,9 +93,6 @@ SFL 是软件测试领域定位故障常用的一种方法。该方法通过测�
 
 与 T-Rank 类似的，MicroRank 首先根据 Trace 的延迟将 Trace 划分为异常 Trace 和 正常 Trace。然后  MicroRank 根据正常和异常 Trace 分别构建出正常，异常 operation-trace 图，并在这两个图上利用 PageRank 算法计算出每个 operation 的正常和异常的权重。最后，MicroRank 基于权重与覆盖统计信息相乘的结果计算 SFL 来得到根因。
 
-> 论文链接：[https://yuxiaoba.github.io/publication/microrank/microrank.pdf](https://yuxiaoba.github.io/publication/microrank/microrank.pdf)
-
-
 **个人评论**：这两篇论文都是我自己写的，所以可以不需要顾忌，可以直接光明正大的嫌弃自己。基于 SFL 的 Trace 根因定位算法，从思想上是非常容易理解的，但是在实际应用中还是存在几个问题：
 
 - 基于 SFL 的 Trace 根因定位算法非常依赖于正常和异常 Trace 的判断结果，但是想要很好地判断哪些 Trace 是正常，哪些 Trace 是异常，其实并不容易。我们不仅需要考虑 Trace 的延迟，还需要考虑 Trace 的返回码， Trace 的结构等等。一旦正常和异常 Trace 判定错了，也会影响到方法的准确率。 
@@ -104,6 +101,8 @@ SFL 是软件测试领域定位故障常用的一种方法。该方法通过测�
 
 - 基于 SFL 的 Trace 根因定位算法目前更倾向于去解决 Microservice 的性能问题，而不是可用性问题，在可用性问题上还需要进一步讨论。
 
+
+> 论文链接：[https://yuxiaoba.github.io/publication/microrank/microrank.pdf](https://yuxiaoba.github.io/publication/microrank/microrank.pdf)
 
 以上我简单介绍了基于 SFL 的 Trace 根因定位算法的思路，相对来说，这种基于统计的根因定位方法比基于深度学习的方法，更容易让运维工程师理解，可解释性也更强。但是要实际地落地，还需要进一步的研究，希望未来我们还会在这个领域有更大的进展。
 

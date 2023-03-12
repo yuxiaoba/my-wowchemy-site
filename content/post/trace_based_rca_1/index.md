@@ -100,10 +100,12 @@ X-Trace 的调用链追踪方案是对 Poinpont 思路的扩展，它将 Trace �
 
 ![](./dapper1.jpg) 
 
-**个人评论：**     此外，为了达到低开销的设计目标，Dapper 还提出对 Trace 的采集进行采样。根据 Dapper 在谷歌的实践经验，对于许多常用的场景，即使对 1/1024 的请求进行采样收集，也能够得到足够的信息。
+**个人评论：**  此外，为了达到低开销的设计目标，Dapper 还提出对 Trace 的采集进行采样。根据 Dapper 在谷歌的实践经验，对于许多常用的场景，即使对 1/1024 的请求进行采样收集，也能够得到足够的信息。
 
 > 论文链接：[https://static.googleusercontent.com/media/research.google.com/zh-CN//archive/papers/dapper-2010-1.pdf](https://static.googleusercontent.com/media/research.google.com/zh-CN//archive/papers/dapper-2010-1.pdf)
 
+
+在 Dapper 的论文发表之后，分布式链路系统日趋走向成熟，中间有一段百家争鸣的日子，Jaeger, Zipkin, OpenTracing, OpenCensus, Skywalking 等开源分布式链路系统都非常活跃。 随着2019年 Opentracing 和 Opencencus 的团队合并到 Opentelemtry 并加入 CNCF，Opentelemetry 的 OTEL 标准逐渐成为云原生 Trace 链路的主流并得到广泛使用。未来 Trace 还会如何进化，让我们保持期待！
 
 
 CloudWeekly 每周分享与云计算相关论文，相关的论文集被收纳到 github 仓库 [https://github.com/IntelligentDDS/awesome-papers](https://github.com/IntelligentDDS/awesome-papers)
