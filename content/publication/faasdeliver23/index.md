@@ -32,7 +32,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *Transaction on Service Computing (CCF A)*
-publication_short: In *TSC'22 (CCF A)*
+publication_short: In *TSC (CCF A)*
 
 abstract: Serverless Function-as-a-Service (FaaS) is a rapidly growing computing paradigm in the cloud era. To provide rapid service response and save network bandwidth, traditional cloud-based FaaS platforms have been extended to the edge. However, launching functions in a heterogeneous computing continuum (HCC) that includes the cloud, fog, and the edge brings new challenges, determining where functions should be delivered and how many resources should be allocated. To optimize the cost of running functions in the HCC, we propose an adaptive and efficient function delivery engine, named FaaSDeliver, which automatically unearths a cost-efficient function delivery policy (FDP) for each function, including the FaaS platform selection and resource allocation. Real system implementation and evaluations in a practical HCC demonstrate that FaaSDeliver can unearth the most cost-efficient FDPs from among 180,200 FDPs after a few trials. FaaSDeliver reduces the average cost of function execution from 38% to 78% compared to some state-of-the-art approaches.
 
