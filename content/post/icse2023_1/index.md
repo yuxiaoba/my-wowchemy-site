@@ -41,8 +41,6 @@ categories:
 
 CSE 全称为 International Conference on Software Engineering，是软件工程领域 CCF A 类会议，2023 年收到 796 篇投稿，录用了 209 篇，录用率为 26%。
 
-## <center> <font color=#00800>01</font></center>
-
 ### <center><font color=#FFA500>2023_ICSE_Recommending Root-Cause and Mitigation Steps for Cloud Incidents using Large Language Models</font></center>
 
 ![](./gpt1.jpg)
