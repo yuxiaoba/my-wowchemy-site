@@ -122,10 +122,7 @@ CSE 全称为 International Conference on Software Engineering，是软件工程
 上表中 incident 负责人为 RoBERTa 和 CodeBERT 模型打了较低的正确性分数。尽管 GPT-3.x 的正确性得分在 2.28 到 3.16 之间，但工程师指出，GPT-3.x 模型推荐了有效的根因和缓解措施，或者可以给予工程师有价值的建议。
 
 
-> 论文链接：[https://arxiv.org/abs/2303.00554](https://arxiv.org/abs/2303.00554)
-> 代码链接：[https://github.com/sarthak-chakraborty/CausIL](https://github.com/sarthak-chakraborty/CausIL)
-
-
+#### **论文小结**
 
 最后再来小结一下，本篇论文是我看到的在 AIOps 领域第一个使用 LLM 大模型的探索工作，论文对微软超过 40,000 个 incident 进行研究，证明先进的大型语言模型，可以有效地帮助 incident 管理，特别是在根因诊断和故障修复推荐方面。
 
