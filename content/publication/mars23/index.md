@@ -32,8 +32,7 @@ publication_types: ["1"]
 publication: In *32nd International Conference on Parallel Processing (CCF B)*
 publication_short: In *ICPP'23 (CCF B)*
 
-abstract: Recently, the adoption of Software Defined Networking (SDN) as a network infrastructure for efficiently managing underlying network 
-has gained significant popularity. Although the openness and programmability of SDN ease the construction of large complex networks, it is still challenging to diagnose faults in a complex datacenter-scale network, which is crucial to guarantee rigorous service level agreement (SLA) of upper-layer applications. Previous network diagnosis tools incur significant overhead in fine-grained telemetry, and usually lack the ability to automatically diagnose fine-grained faults. 
+abstract: In this paper, we present MARS, a lightweight system for anomaly detection with dynamic threshold and automatic root cause localization in programmable networking systems. MARS collects aggregated packet level telemetry on demand and generates a ranked list of fine-grained fault culprits at multiple levels, including port level, switch level, and flow level. Experimental evaluations show the cost-effectiveness of MARS, both in terms of network bandwidth and switch memory usage. Moreover, MARS achieves a 0.97 F1 score in anomaly detection, and 0.95 Recall at Top2 and an overall 0.3 Exam Score in root cause localization.
 
 # Summary. An optional shortened abstract.
 summary: In this paper, we present MARS, a lightweight system for anomaly detection with dynamic threshold and automatic root cause localization in programmable networking systems. 
