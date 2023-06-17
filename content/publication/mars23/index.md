@@ -40,7 +40,6 @@ has gained significant popularity. Although the openness and programmability of 
 # Summary. An optional shortened abstract.
 summary: In this paper, we present MARS, a lightweight system for anomaly detection with dynamic threshold and automatic root cause localization in programmable networking systems. 
 
-
 tags: [Network,AIOps,Reliability,RCA]
 
 # Display this page in the Featured widget?
