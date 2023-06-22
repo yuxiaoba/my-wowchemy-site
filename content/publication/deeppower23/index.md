@@ -6,10 +6,10 @@ title: "DeepPower: Deep Reinforcement Learning based Power Management for Latenc
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - Jingrun Zhang
-- Pengfei Chen
 - admin
 - Zilong He
-
+- Liang Ai
+- Pengfei Chen
 
 # Author notes (optional)
 # author_notes:
