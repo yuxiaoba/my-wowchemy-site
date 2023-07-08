@@ -50,7 +50,7 @@ categories:
 
 
 
-#### **论文背景** 
+#### <font color=#FFA500>**论文背景** </font></center>
 
 现代 AI 应用，如强化学习，它已经不是由一种机器学习任务组成，而是会包含多种机器学习任务，比如 Data Processing、Training、Serving 和Simulation 等。
 
@@ -69,13 +69,13 @@ categories:
 
 
 
-#### **Ray 框架**
+#### <font color=#FFA500>**Ray 框架*** </font></center>
 
 Ray 采取一种新的可横向扩展的分布式结构。Ray 的结构由两部分组成：Application Layer 和 System Layer。Application Layer 实现 API 和计算模型，执行分布式计算任务。System Layer 负责任务调度和数据管理，来满足表现性能和容错的要求。
 
 ![](./ray4.png)
 
-1.  Application Layer
+1.  **Application Layer**
 
 Ray的 Application Layer 使用传统的 Driver-Worker 模式进行组织。
 
@@ -87,7 +87,7 @@ Ray的 Application Layer 使用传统的 Driver-Worker 模式进行组织。
 
 
 
-2. System  Layer
+2. **System  Layer**
 
 - Global Control Store (GSC) 维护整个系统的状态，他的核心是 KV 存储和基于 KV 存储的订阅发布机制。系统所有的控制状态都存储在 GSC 中，这样系统其他组件可以是无状态的。这不仅简化了对容错的支持（出现错误时，组件可以从 GSC 中读取最近状态并重新启动），也使得其他组件可以横向扩展
 
@@ -98,14 +98,14 @@ Ray的 Application Layer 使用传统的 Driver-Worker 模式进行组织。
 ![](./ray5.png)
 
 
-3. Ray Shedule Example
+3. **Ray Shedule Example** 
 
 下图展示了由 Driver 调用 add.remote(a，b) 触发的逐步操作，其中 a 和 b 分别存储在节点 N1 和 N2 上。
 N1 的 Driver 将 add(a，b)提交给 Local Scheduler
 
     1. Local Scheduler 发现 b 不在  N1  上，将  add(a，b) 转发给 Global Scheduler
     2. Global Scheduler 在 GCS 中查找 add(a，b) 的自变量的位置
-    3. 3. Global Scheduler  决定在存储自变量 b 的节点 N2 上调度任务
+    3. Global Scheduler  决定在存储自变量 b 的节点 N2 上调度任务
     4. 节点 N2 处的 Local Scheduler  检查 Local Object Store 是否包含 add(a，b) 的自变量
     5. 节点 N2 处的 Local Scheduler 发现 Local Object Store 没有 objetc a，它在 GCS 中查找 a 的位置 
     6. N2 Local Scheduler  得知 a 存储在 N1，N2 的 Object Store 复制它到本地
@@ -115,7 +115,7 @@ N1 的 Driver 将 add(a，b)提交给 Local Scheduler
 ![](./ray6.png)
 
 
-#### **论文结果**
+#### <font color=#FFA500>**论文结果** </font></center>
 
 Ray 中 GCS 的主要优势是增强系统的横向可扩展性。在实验中可以观察到几乎线性的任务吞吐量增长。在 60 节点，Ray 可以达到超过每秒 100 万个任务的吞吐量，并线性地在 100 个节点上超过每秒 180 万个任务。最右边的数据点显示，Ray 可以在不到一分钟的时间处理 1 亿个任务（54s）
 
