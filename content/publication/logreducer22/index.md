@@ -61,4 +61,4 @@ url_video: ''
 
 ---
 The blow figure shows the framework of LogReducer.
-![GIED Framework](./logredcuer.jpg)
+![LogReducer Framework](./logredcuer.jpg)

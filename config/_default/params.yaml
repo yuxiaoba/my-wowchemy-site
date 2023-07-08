@@ -5,10 +5,17 @@
 
 # Appearance
 
-theme: minimal
-day_night: true
-font: ''
-font_size: L
+# theme: minimal
+# day_night: true
+# font: ''
+# font_size: L
+
+appearance:
+  theme_day: minimal
+  theme_night: minimal
+  font: minimal
+  font_size: L
+
 
 # SEO
 

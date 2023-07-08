@@ -1,0 +1,10 @@
+{{ $file := .Get 0 }}
+{{ $lines := .Get 1 }}
+{{ $filestr := readFile $file }}
+{{/* Splitting content by newline */}}
+{{ $filestr := split $filestr "\n" }}
+{{/* Limit the array/slice,  start from 2nd item then grab all first 3 item */}}
+{{ $filestr := first $lines (after 0 $filestr) }}
+{{/* Delimit by newline */}}
+{{ $filestr := delimit $filestr "\n\n" }}
+{{ $filestr | markdownify }}
