@@ -55,7 +55,7 @@ url_code: 'https://github.com/IntelligentDDS/LogReducer'
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'https://yuxiaoba.github.io/publication/logreducer22/ICSE2023.pdf'
 url_source: ''
 url_video: ''
 
