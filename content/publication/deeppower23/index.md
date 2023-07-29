@@ -57,5 +57,5 @@ url_source: ''
 url_video: ''
 
 ---
-The blow figure shows the framework of GIED.
+The blow figure shows the framework of Deeppower.
 ![DeepPower Framework](./DeepPower.jpg)
