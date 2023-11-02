@@ -1,5 +1,5 @@
 ---
-title: "LogReducer: Identify and Reduce Log Hotspots inKernel on the Fly"
+title: "LogReducer: Identify and Reduce Log Hotspots in Kernel on the Fly"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
