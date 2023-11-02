@@ -29,7 +29,7 @@ education:
   courses:
   - course: Ph.D. in Computer Science and Technology
     institution: Sun Yat-Sen University
-    year: 2024 (Excepted) 
+    year: 2024 (Expected) 
   - course: M.Eng in Computer Technology
     institution: Sun Yat-Sen University
     year: 2020
@@ -73,7 +73,7 @@ I am Guangba Yu (余广坝 in Chinese). I am a 4th year Ph.D. candidate at Sun Y
 
 I have awarded Tencent Rhino-Bird Research Elite Program and Tencent Special Scholarship in 2022. I am a Ph.D. software engineering student researcher at WeChat in 2022, hosted by [Yuetang Deng](https://scholar.google.com/citations?hl=zh-CN&user=jiPCz_cAAAAJ). 
 
-I am actively looking for faculty positions and post-doc opportunities in both China and North America.
+I am actively looking for faculty positions and post-doc opportunities.
 
 I maintain a Github project about [Awesome cloud paper](https://github.com/IntelligentDDS/awesome-papers) and a WeChat public account [WeeklyCloudPaper](https://yuxiaoba.github.io/authors/admin/weeklycloudpaper.jpg) in Chinese. Welcome to follow my updates. 
 
