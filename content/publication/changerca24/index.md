@@ -34,10 +34,10 @@ publication_types: ["1"]
 publication: In *32nd ACM International Conference on the Foundations of Software Engineering*
 publication_short: In *FSE'24 (CCF A)*
 
-abstract: In large-scale online service systems
+abstract: In large-scale online service systems, the occurrence of software changes is inevitable and frequent. Despite rigorous pre-deployment testing practices, the presence of defective software changes in the online environment cannot be completely eliminated. Consequently, there is a pressing need for automated techniques that can effectively identify these defective changes However, the current abnormal change detection (ACD) approaches fall short in accurately pinpointing defective changes, primarily due to their disregard for the propagation of faults. To address the limitations of ACD, we propose a novel concept called root cause change analysis (RCCA) to identify the underlying root causes of change-inducing incidents. In order to apply the RCCA concept to practical scenarios, we have devised an intelligent RCCA framework named ChangeRCA. This framework aims to localize the defective change associated with change-inducing incidents among multiple changes.
 
 # Summary. An optional shortened abstract.
-summary: To address the limitations of ACD, we propose a novel concept called root cause change analysis (RCCA) to identify the underlying root causes of change inducing incidents. 
+summary: To address the limitations of ACD, we propose a novel concept called root cause change analysis (RCCA) to identify the underlying root causes of change inducing incidents. In order to apply the RCCA concept to practical scenarios, we have devised an intelligent RCCA framework named ChangeRCA. This framework aims to localize the defective change associated with change-inducing incidents among multiple changes. 
 tags: [Root Cause Analysis, Software Change, Microservice]
 
 # Display this page in the Featured widget?
