@@ -50,8 +50,8 @@ featured: false
 #   url: http://example.org
 
 url_pdf: ''
-url_code: ''
-url_dataset: ''
+url_code: 'https://github.com/IntelligentDDS/ChangeRCA'
+url_dataset: 'https://github.com/IntelligentDDS/ChangeRCA/tree/main/data'
 url_poster: ''
 url_project: ''
 url_slides: ''
