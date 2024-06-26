@@ -6,7 +6,7 @@ title: Guangba Yu
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Candidate Focus on Cloud Native
+role: Postdoc Focus on Reliablity of Distributed Systems
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -14,13 +14,13 @@ organizations:
   url: http://www.dds-sysu.tech/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include cloud computing, microservices, Serverless, AIOps
+bio: My research interests include cloud computing, microservices, AIOps, MLOps
 
 # Interests to show in About widget
 interests:
 - Cloud Computing
 - Microservice
-- Serverless
+- MLOps
 - AIOps
 - Chaos Engineering
 
@@ -29,7 +29,7 @@ education:
   courses:
   - course: Ph.D. in Computer Science and Technology
     institution: Sun Yat-Sen University
-    year: 2024 (Expected) 
+    year: 2024 
   - course: M.Eng in Computer Technology
     institution: Sun Yat-Sen University
     year: 2020
@@ -41,7 +41,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:yugb5@mail2.sysu.edu.cn'
+  link: 'mailto:yugb5@mail3.sysu.edu.cn'
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/GeorgeCushen
@@ -69,11 +69,11 @@ email: ""
 highlight_name: true
 ---
 
-I am Guangba Yu (余广坝 in Chinese). I am a 4th year Ph.D. candidate at Sun Yat-Sen University, advised by Professor [Pengfei Chen](http://www.dds-sysu.tech/Teachers). I am interested in cloud native, microservice, Serverless, and AIOps. My research focus on perfromance diagnose and optimization in distributed systems. And I have a strong curiosity about telemetry of cloud-native systems.
+I am Guangba Yu (余广坝 in Chinese). I will be a postdoctoral researcher in the [Automated Reliable Intelligent Software Engineering (ARISE) Lab](http://ariselab.cse.cuhk.edu.hk/) at The Chinese University of Hong Kong, mentored by Prof. [Michael R. Lyu](https://www.cse.cuhk.edu.hk/lyu/).
+
+I received Ph.D. and M.Eng at Sun Yat-Sen University, advised by Professor [Pengfei Chen](http://www.dds-sysu.tech/Teachers). I am interested in cloud native, microservice, AIOps and MLOps. My research focus on perfromance diagnose and optimization in distributed systems. And I have a strong curiosity about telemetry of cloud systems.
 
 I have awarded Tencent Rhino-Bird Research Elite Program and Tencent Special Scholarship in 2022. I am a Ph.D. software engineering student researcher at WeChat in 2022, hosted by [Yuetang Deng](https://scholar.google.com/citations?hl=zh-CN&user=jiPCz_cAAAAJ). 
-
-I am actively looking for faculty positions and post-doc opportunities. You can find more information in my [CV](https://yuxiaoba.github.io/authors/admin/cv_yugb_2023.pdf).
 
 
 I maintain a Github project about [Awesome cloud paper](https://github.com/IntelligentDDS/awesome-papers) and a WeChat public account [WeeklyCloudPaper](https://yuxiaoba.github.io/authors/admin/weeklycloudpaper.jpg) in Chinese. Welcome to follow my updates. 
