@@ -30,7 +30,7 @@ publishDate: "2024-06-18T01:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *15th Asia-Pacific Symposium on Internetware *
+publication: In *15th Asia-Pacific Symposium on Internetware*
 publication_short: In *Internetware'24 (CCF C)*
 
 abstract: The rapid development of information technology has necessitated the management of large volumes of data in modern society, leading to the emergence of NoSQL databases (e.g., MongoDB). To meet the huge demand for efficient data management and query, optimizing the performance of these databases has become crucial. Currently, some reinforcement learning-based methods have been used to improve the efficiency of databases by tuning customizable database configurations. However, these methods have two limitations including susceptibility to cold-start effect and low efficiency in configuration search. To address these issues, we propose a novel and effective approach named CTuner for the online performance tuning of NoSQL databases. CTuner skips cold start by Bayesian optimization-based
@@ -38,6 +38,7 @@ learning, and improves the exploitation strategy of the TD3 model with causal in
 
 # Summary. An optional shortened abstract.
 summary: We propose a novel and effective approach named CTuner for the online performance tuning of NoSQL databases. CTuner skips cold start by Bayesian optimization-based learning, and improves the exploitation strategy of the TD3 model with causal inference.
+
 tags: [Performance Optimization, Config]
 
 # Display this page in the Featured widget?
