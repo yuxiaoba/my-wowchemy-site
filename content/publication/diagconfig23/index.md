@@ -40,7 +40,7 @@ abstract: Performance degradation due to misconfiguration in software systems th
 # Summary. An optional shortened abstract.
 summary: This paper proposes DiagConfig, specifically designed to conduct configuration diagnosis of performance violations. It leverages static code analysis to track configuration option propagation, identifies performance-sensitive options, detects performance violations, and constructs cause-effect chains that help stakeholders better understand the relationship between configuration and performance violations.
 
-tags: [Configuration diagnosis, Static analysis, Performance violation, Taint tracking]
+tags: [Configuration, Performance Optimization]
 
 # Display this page in the Featured widget?
 featured: false

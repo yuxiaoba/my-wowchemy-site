@@ -41,7 +41,7 @@ abstract: With the ever increasing scale and complexity of online systems, incid
 summary: This paper proposes a novel system, named GIED, which is a method to automatically analyze the cascading effect of availability issues in online systems. GIED enables the extraction of graph-based issue representations. This representation includes both the issue symptoms and affected service attributes. A neural network is used to perform incident detection. Finally, the PageRank algorithm is used to locate the root cause of the incident.
 
 
-tags: [Microservice, RCA, PageRank, Reliability, AIOps]
+tags: [Microservice, Root Cause Analysis, AIOps]
 
 # Display this page in the Featured widget?
 featured: false

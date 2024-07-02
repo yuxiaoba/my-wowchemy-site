@@ -1,9 +1,9 @@
 ---
-title: Opentelemetry Microservice Benchmark
-summary: An microservice benchmark equipped with Opentelemetry.
+title: Augmented Microservice Benchmark Online Boutique
+summary: An augmented microservice benchmark equipped with Opentelemetry.
 tags:
 - Telemetry
-date: "2022-02-01T00:00:00Z"
+date: "2024-02-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -17,7 +17,7 @@ external_link: ""
 #   icon_pack: ""
 #   name: ""
 #   url: ""
-url_code: "https://github.com/yuxiaoba/Hipster-Shop"
+url_code: "https://github.com/IntelligentDDS/Augmented-OnlineBoutique"
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -32,6 +32,8 @@ slides: ""
 
 Online Boutique is a cloud-native microservices demo application. Online Boutique consists of a 10-tier microservices application. The application is a web-based e-commerce app where users can browse items, add them to the cart, and purchase them. Google uses this application to demonstrate use of technologies like Kubernetes, Istio, Stackdriver, gRPC. This application works on any Kubernetes cluster (such as a local one). It’s easy to deploy with little to no configuration.
 
-We instrument OpenTelemetry API for each service to equip tracing ability for Online Boutique.
+We  instrument the Opentelemetry API for each service to obtain traces and insert Trace ID and Span ID into each log to enhance observability.
+
+This Augmented-Online Boutique is open-sourced by FSE 2023 paper [Nezha](https://yuxiaoba.github.io/publication/nezha23/)
 
 ![tracing](./tracing.png)

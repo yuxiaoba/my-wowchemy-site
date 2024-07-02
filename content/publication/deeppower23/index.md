@@ -37,7 +37,7 @@ abstract: Latency-critical (LC) applications are widely deployed in modern datac
 # Summary. An optional shortened abstract.
 summary: This paper proposes DeepPower, a deep reinforcement learning (DRL) based power management solution for LC applications. DeepPower comprises two key components, a DRL agent for monitoring the system load changes and a thread controller for CPU frequency adjustment. 
 
-tags: [Power, Deep Reinforcement Learning]
+tags: [Power, Deep Reinforcement Learning, Performance Optimization]
 
 # Display this page in the Featured widget?
 featured: false
